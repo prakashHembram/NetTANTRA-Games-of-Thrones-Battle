@@ -1,0 +1,168 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(91deg,#181816 -41.82%,#efefef 49.95%,#121211 129.32%);
+
+}
+
+#nav{
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  margin:1px;
+  background: linear-gradient(91deg,#181816 -0.82%,#efefef 49.95%,#121211 99.32%);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 6px 0px;
+  border: 1px solid;
+  overflow: hidden;
+  
+}
+
+li {
+  
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li a {
+  font-size: x-large;
+  
+  display: block;
+  color: #000000;
+  /* text-align: i; */
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(158, 158, 158);
+  padding-top: 5px;
+  
+}
+
+.active {
+  background-color: #0cff71;
+}
+
+.search{
+  margin: 10px 0px 0px 16px;
+  display:left;
+  height: 30px;
+  width: 300px;
+  padding-left: 10px;
+  border: 1px solid rgba(128, 123, 123, 0.87);
+  box-shadow: 0px 0px 3px;
+}
+/* End nav Bar */
+
+
+.bgimg{
+  text-align: center;
+ 
+}
+
+.bgimg img{
+  width:100%;
+  height: 100%;
+  
+}
+
+
+.teambox{
+  display: grid;
+  grid-template-columns:repeat(auto-fit,25rem);
+  justify-content:space-around;
+  background: linear-gradient(91deg,#181816 -0.82%,#efefef 49.95%,#121211 99.32%);
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+.myDiv{
+  background-color: #ffffff00;
+  margin: 30px 30px 92px 30px;
+  border: 1px solid black ;
+  box-shadow: 1px 1px 6px;
+  height: 199px;
+  width: 354px;
+  
+
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black ; */
+  /* size: 5px; */
+}
+
+.TeemName{
+  text-align: center;
+  color: #070707;
+  
+  background: linear-gradient(90.04deg,#8585bddb -17.82%,#f5f7f9 56.95%,#7a7af1c2 116.32%);
+  padding-top: 14px;
+  height: 48px;
+  width: 240px;
+  border: 1px solid rgb(148, 145, 145);
+  box-shadow: -1px 0px 13px;
+}
+a{
+text-decoration: none;
+}
+
+.Dcimg{
+  height: 240px;
+  width: 239px;
+}
+
+
+ /* start 2nd page Battle-of-the-Bastards.html */
+
+
+.TopM{
+padding: 73px 25px 25px 25px;
+font-size: x-large;
+text-align: justify;
+}
+.t-image{
+margin: 6px 4px 7px 985px;
+width: 457px;
+height: 314px;
+
+}
+.t2-div{
+  margin: -287px 0px 0px 0px;
+}
+.battlesD2{
+  text-align: center;
+  
+}
+
+.battlesD2 a div h1{
+  margin-top: 25px;
+  
+  
+}
+
+.BattlesName{
+  text-align: center;
+  color: #000000;
+}
+.footer{
+  background-color:linear-gradient(91deg,#181816 -41.82%,#efefef 49.95%,#121211 129.32%);
+  height: 25px;
+  width: 100%;
+}
